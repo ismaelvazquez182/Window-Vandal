@@ -67,6 +67,7 @@ void Gui::Run(void (*refresh)(std::string *), void (*changeTitle)(int, std::stri
 				std::string temp = m_list_items[i];
 				temp.erase(0, 3);
 				strcpy_s(m_new_window_title, 256, temp.c_str());
+				textBoxCursorIndex = temp.size();
 			}
 			
 		}
