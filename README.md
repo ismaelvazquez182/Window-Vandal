@@ -25,3 +25,5 @@ vcpkg install raylib:x64-windows
 4. Place raylib.dll in the same path as your project.
 
 I don't actually know if you need raylib installed. I have it for game programming but you might be able to get away with just compiling this using steps 3 and 4.
+
+![Screenshot](https://raw.githubusercontent.com/ismaelvazquez182/Window-Vandal/refs/heads/main/Window%20Vandal%20Demo.gif)
